@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.http import JsonResponse
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from .products import products
@@ -33,5 +32,15 @@ def getProducts(request):
 
 @api_view(['GET'])
 def getProduct(request, pk):
+    
     product = None
-    return Response(product)
+    for i in products:
+        if i["id"] == pk:
+            product = i
+            break
+    
+    if product is not None:
+        return Response(product)
+    else:
+        return Response({"error": "Producto no encontrado"})
+

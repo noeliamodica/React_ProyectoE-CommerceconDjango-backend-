@@ -1,7 +1,7 @@
 
 products = [
         {
-            "id": 1,
+            "id": "1",
             "name": "Clásica",
             "base": "Mix de verdes",
             "dressing": "Ranch",
@@ -9,10 +9,10 @@ products = [
             "image": "/img/Clásica.jpg",
             "price": 850,
             "status": "Mas Vendido",
-            "countInStock": 10,
+            "countInStock": 10
         },
         {
-            "id": 2,
+            "id": "2",
             "name": "Cala",
             "base": "Rúcula y fideos(penne rigatti)",
             "dressing": "Mostaza y miel",
@@ -20,10 +20,10 @@ products = [
             "image": "/img/Cala.jpg",
             "price": 850,
             "status": "Mas Vendido",
-            "countInStock": 9,
+            "countInStock": 9
         },
         {
-            "id": 3,
+            "id": "3",
             "name": "Caesar",
             "base": "Mix de verdes",
             "dressing": "Caesar",
@@ -31,10 +31,10 @@ products = [
             "image": "/img/Caesar.jpg",
             "price": 850,
             "status": "Mas Vendido",
-            "countInStock": 6,
+            "countInStock": 6
         },
         {
-            "id": 4,
+            "id": "4",
             "name": "Crispy",
             "base": "Mix de verdes",
             "dressing": "Caesar",
@@ -42,10 +42,10 @@ products = [
             "image": "/img/Crispy.jpg",
             "price": 850,
             "status": "Mas Vendido",
-            "countInStock": 10,
+            "countInStock": 10
         },
         {
-            "id": 5,
+            "id": "5",
             "name": "Pastrón",
             "base": "Rúcula y fideos(penne rigatti)",
             "dressing": "Reducción de aceto balsámico",
@@ -53,10 +53,10 @@ products = [
             "image":  "/img/Salami.jpg",
             "price": 870,
             "status": " ",
-            "countInStock": 7,
+            "countInStock": 7
         },
         {
-            "id": 6,
+            "id": "6",
             "name": "Peras",
             "base": "Rúcula",
             "dressing": "Vinagreta (Oliva, Aceto, Vinagre y Pimienta)",
@@ -64,10 +64,10 @@ products = [
             "image":  "/img/Peras.jpg",
             "price": 850,
             "status": " ",
-            "countInStock": 8,
+            "countInStock": 8
         },
         {
-            "id": 8,
+            "id": "8",
             "name": "Crudo",
             "base": "Rúcula y fideos(penne rigatti)",
             "dressing": "Reducción dulce de aceto balsámico y pesto genovés",
@@ -75,10 +75,10 @@ products = [
             "image": "/img/Crudo.jpg",
             "price": 870,
             "status": " ",
-            "countInStock": 11,
+            "countInStock": 11
         },
         {
-            "id": 9,
+            "id": "9",
             "name": "Brie",
             "base": "Mix de verdes",
             "dressing": "Mostaza y miel",
@@ -86,7 +86,7 @@ products = [
             "image": "/img/Brie.jpg",
             "price": 870,
             "status": "Mas Vendido",
-            "countInStock": 0,
+            "countInStock": 0
         },
         {
             "id": "10",
@@ -97,7 +97,7 @@ products = [
             "image": "/img/Atun.JPG",
             "price": 750,
             "status": " ",
-            "countInStock": 3,
+            "countInStock": 3
         },
         {
             "id": "11",
@@ -108,7 +108,7 @@ products = [
             "image": "/img/Frutillas.png",
             "price": 870,
             "status": " ",
-            "countInStock": 2,
+            "countInStock": 2
             
         }
     ]
